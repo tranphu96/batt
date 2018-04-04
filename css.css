@@ -66,9 +66,9 @@ header nav ul li a {
 }
 #hero-image {
     background-image: url(images/hero.jpg);
-    width:100%;
+    width:70%;
     height:765px;
-    margin:0px;
+    margin:3px;
 
 }
 .button-1 {
