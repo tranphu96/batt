@@ -26,7 +26,8 @@
         <h1>FERITA</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li> /
+                <li> / </li>
                 <li><a href="#">Portfolio</a></li>
             </ul>
         </nav>
@@ -34,10 +35,173 @@
 </header>
 <div id="hero-image">
     <div class="wrapper">
-        <a href="#" class="button-1"> >> </a>
-        <a href="#" class="button-2"> << </a>
     </div>
 </div>
+<div id="secondary-content">
+<div id="content">
+    <div class="left">
+        <img  src="images/article-image-1.jpg" />
+    </div>
 
+    <div class="right">
+         <img id="top" src="images/article-image-2.jpg" /><br>
+        <h3>SIDEBAR GALLERY</h3><br>
+
+        <img src="images/features-icon-1.png" height="45" width="70" vspace="7px" hspace="5px"/>
+        <img src="images/features-icon-1.png" height="45" width="70" vspace="7px" hspace="5px"/>
+        <img src="images/features-icon-1.png" height="45" width="70" vspace="7px" hspace="5px"/>
+        <img src="images/features-icon-1.png" height="45" width="70" vspace="7px" hspace="5px"/>
+        <img src="images/features-icon-1.png" height="45" width="70" vspace="7px" hspace="5px"/>
+        <img src="images/features-icon-1.png" height="45" width="70" vspace="7px" hspace="5px"/>
+
+    </div>
+
+</div>
+</div>
+<div id="features" style="width: 100%; height: 400px">
+    <div class="wrapper">
+        <ul>
+            <li class="feature-1">
+                <h4>Easy to Edit</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+                <a href="#">Read move</a>
+            </li>
+            <li class="feature-2">
+                <h4>Layered PSD</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+                <a href="#">Read move</a>
+            </li>
+            <li class="feature-3">
+                <h4>Ready to Go</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+                <a href="#">Read move</a>
+            </li>
+            <li class="feature-4">
+                <h4>Ready to Go</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis turpis ac libero interdum, id fringilla purus feugiat. Etiam malesuada mattis nibh at bibendum.</p>
+                <a href="#">Read move</a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+</div>
+<div id="conten2">
+    <div id="conten2_left">
+        <button type="button" class="accordion"><b>Simple collapsible </b></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button type="button" class="accordion"><b>Simple collapsible </b></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <button type="button"class="accordion" ><b>Simple collapsible </b></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <div id="conten2_right">
+        <button type="button"class="accordion" ><b>Simple collapsible </b></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+        <button type="button"class="accordion" ><b>Simple collapsible </b></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+        </div>
+        <button type="button" class="accordion"><b>Simple collapsible </b></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit </p>
+        </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</div>
+<div id="content3" style="width: 100%; height: 400px; margin-top: 50px">
+    <div id="conten3_left">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab1')" id="defaultOpen">TAB TITLE</button>
+            <button class="tablinks" onclick="openTab(event, 'tab2')">TAB TITLE</button>
+            <button class="tablinks" onclick="openTab(event, 'tab3')">TAB TITLE</button>
+            <button class="tablinks" onclick="openTab(event, 'tab4')">TAB TITLE</button>
+        </div>
+
+        <div id="tab1" class="tabcontent">
+
+            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.<img src="images/features-icon-1.png" style="float: right"></p>
+
+        </div>
+
+        <div id="tab2" class="tabcontent">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div id="tab3" class="tabcontent">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div id="tab4" class="tabcontent">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+
+
+    </div>
+    <div id="conten3_right">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab5')" id="defaultOpen2">TAB TITLE</button>
+            <button class="tablinks" onclick="openTab(event, 'tab6')">TAB TITLE</button>
+
+        </div>
+        <div id="tab5" class="tabcontent">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div id="tab6" class="tabcontent">
+
+            <p> Create buttons to open specific tab content. All <div> elements with class="tabcontent" are hidden by default (with CSS & JS). When the user clicks on a button - it will open the tab content that "matches" this button.</p>
+        </div>
+
+    </div>
+    <script>
+        function openTab(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        document.getElementById("defaultOpen2").click();
+    </script>
+
+</div>
 </body>
 </html>
