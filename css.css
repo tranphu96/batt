@@ -53,17 +53,15 @@ header nav ul li a {
     height: 70px; ;
     float: bottom;
 }
-.bottom nav{
-    margin-top: 7px;
-}
-.bottom nav ul li a{
-    color: black;
-    font-weight:normal;
+.bottom p{
+    width: 360px;
+    float: right;
+    margin-top: 27px;
 
 }
 
-.bottom nav ul li {
-    font-size: 15px;
+.bottom a {
+    text-decoration:none;
 }
 /* phan hero-image*/
 #hero-image {
@@ -231,25 +229,27 @@ header nav ul li a {
      background-color: #ccc;
  }
 #content3 {
-    height: 150px;
-    width: 100%;
+
     background-color:#f3f3f3;
 
 }
 #conten3_left{
-    background:#f3f3f3;
+    background:#f8f8f8;
     width: 819px;
-    height: 150px;
+    height: 183px;
     float: left;
     margin-left: 152px;
+    border-radius: 3px;
+
 }
 /*slider3 ben phai*/
 #conten3_right{
-    background:#f3f3f3;
+    background:#f8f8f8;
     width: 282px;
-    height: 150px;
+    height: 183px;
     float: right;
     margin-right: 200px;
+    border-radius: 3px;
 }
 #content3 img{
     float: right;
@@ -287,8 +287,113 @@ header nav ul li a {
 
 /* nội dung tab */
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+   height: 100%;
+    overflow: auto
+}
+#list-images{
+
+
+    margin-left: 153px;
+
+}
+#list-images #images-top img{
+    width: 298px;
+    height: 285px;
+    padding-top: 2px;
+    float: left;
+    margin-right: 8px;
+
+
+
+}
+#list-images #images-bottom img{
+    padding-left: 0px;
+    width: 606px;
+    height: 285px;
+    padding-top: 25px;
+    float: left;
+    margin-right: 4px;
+
+}
+.headline{
+    width: 1225px;
+    margin-left: 153px;
+   height: 1000px;
+}
+.headline #hang3{
+    height: 306px;
+}
+
+
+.headline h4 p {
+
+    padding-top: 140px;
+
+
+}
+.headline #text1{
+width: 50%;
+    float: right;
+
+}
+.headline #text2{
+    width: 50%;
+    padding-top: 1px;
+
+
+}
+.headline #text3{
+    width: 23%;
+    float: right;
+
+}
+.headline #text4{
+    width: 73%;
+    padding-top: 1px;
+
+
+}
+.headline #text5{
+    width: 23%;
+    float: right;
+
+}.headline #text6{
+     width: 23%;
+     float: right;
+    margin-right: 30px;
+ }
+.headline #text7{
+    width: 23%;
+    float: left;
+
+}
+.headline #text8{
+    width: 23%;
+    float: left;
+    margin-left: 30px;
+}
+#list-link{
+    width: 1225px;
+    margin-left: 153px;
+}
+
+
+#links ul {
+    width: 242px;
+    float: left;
+    margin-left: 20px;
+
+}
+
+#links ul li {
+    margin: 10px 0;
+
+}
+#links ul li a {
+    text-decoration: none;
+
+}
+#links ul li a {
+    text-decoration: none;
+
 }
